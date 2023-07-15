@@ -1,0 +1,37 @@
+{
+  "kind": "collectionType",
+  "collectionName": "core_members",
+  "info": {
+    "singularName": "core-member",
+    "pluralName": "core-members",
+    "displayName": "core-member",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "designation": {
+      "type": "string",
+      "default": "NA",
+      "required": true
+    },
+    "role": {
+      "type": "string",
+      "required": true
+    },
+    "picture": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    }
+  }
+}
