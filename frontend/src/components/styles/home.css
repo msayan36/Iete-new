@@ -1,0 +1,70 @@
+.home {
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-upper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.iem-logo {
+  width: 7rem;
+}
+
+.iete-logo {
+  width: 6rem;
+}
+
+.hero-title {
+  font-size: 5rem;
+  font-weight: bolder;
+  margin: 0 3rem;
+  color: blueviolet;
+}
+
+.hero-middle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.inst-name {
+  font-size: 2rem;
+  margin: 2rem 0;
+  width: 50rem;
+  text-align: center;
+  color: grey;
+}
+
+.hero-bottom {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.hero-bottom p {
+  font-size: 1.2rem;
+}
+
+.hero-icons {
+  margin: 2rem 0;
+  font-size: 2rem;
+}
+
+.hero-icons a {
+  margin: 0 0.5rem;
+  color: blueviolet;
+  cursor: pointer;
+  transition: all 0.1s linear;
+}
+
+.hero-icons a:hover {
+  color: grey;
+}
